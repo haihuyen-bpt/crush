@@ -16,7 +16,7 @@ function firstQuestion(){
     Swal.fire({
         title: 'Hi em!',
         text: 'Tui có điều này muốn hỏi, nhớ trả lời thật lòng nha',
-        imageUrl: 'img/PicsArt_06-30-04.42.40.jpg',
+        imageUrl: 'img/received_853139945583986.jpeg',
         imageWidth: 300,
         imageHeight: 300,
         background: '#fff url("img/iput-bg.jpg")',
@@ -73,7 +73,7 @@ $('#no').click(() => {
 // generate text in input
 function textGenerate() {
     var n = "";
-    var text = " yêu em mãi mãi ";
+    var text = " iu em be rat nhieu ";
     var a = Array.from(text);
     var textVal = $('#txtReason').val() ? $('#txtReason').val() : "";
     var count = textVal.length;
@@ -125,7 +125,7 @@ $('#yes').click(function() {
                 text: "i luv u to the moon and back ",
                 confirmButtonColor: '#83d0c9',
                 onClose: () => {
-                    window.location = 'https://www.facebook.com/minhhthhucutie';
+                    window.location = 'https://www.facebook.com/thihaihuyen.nguyen.9';
                   }
             })
         }
